@@ -1,4 +1,4 @@
-export const navItems = [
+export const navItems: { name: string; link: string; icon?: JSX.Element }[] = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
