@@ -21,7 +21,6 @@ export const TextGenerateEffect = ({
       "span",
       {
         opacity: 1,
-        filter: filter ? "blur(0px)" : "none",
       },
       {
         duration: 2,
