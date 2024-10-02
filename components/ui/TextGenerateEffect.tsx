@@ -38,7 +38,7 @@ export const TextGenerateEffect = ({
             >
               {word}{" "}
             </motion.span>
-          );
+          ); 
         })}
       </motion.div>
     );
