@@ -4,10 +4,10 @@ import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 export const TextGenerateEffect = ({
-  words,
+  words, 
   className,
 }: {
-  words: string;
+  words: string; 
   className?: string;
 }) => {
   const [scope, animate] = useAnimate();
@@ -38,7 +38,7 @@ export const TextGenerateEffect = ({
             >
               {word}{" "}
             </motion.span>
-          ); 
+          );
         })}
       </motion.div>
     );
