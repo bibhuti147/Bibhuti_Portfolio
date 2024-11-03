@@ -118,6 +118,7 @@ export const BentoGridItem = ({
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-2 mt-8 lg:mt-16">
               {skills.map((skill, index) => (
                 <ShimmerButton
+                  key={index}
                   title={skill.name}
                   icon={skill.img}
                   index={index}
