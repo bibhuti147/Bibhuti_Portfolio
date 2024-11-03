@@ -5,6 +5,19 @@ export const navItems: { name: string; link: string; icon?: JSX.Element }[] = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const skills: { name: string; img: string }[] = [
+  { name: "React JS", img: "/re.svg" },
+  { name: "Next JS", img: "/next2.svg" },
+  { name: "Tailwind CSS", img: "/tail.svg" },
+  { name: "React Native", img: "/rn.svg" },
+  { name: "Expo Router", img: "/expo.svg" },
+  { name: "Firebase", img: "/fire.svg" },
+  { name: "GitHub", img: "/git2.svg" },
+  { name: "JavaScript", img: "/js.svg" },
+  { name: "TypeScript", img: "/ts.svg" },
+  { name: "C++", img: "/cpp.svg" },
+];
+
 export const gridItems = [
   {
     id: 1,
@@ -32,9 +45,9 @@ export const gridItems = [
     title: "My Tech Stack",
     description: "I constantly try to improve",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-[500px] w-60 rounded-3xl",
-    titleClassName: "justify-start md:justify-start lg:justify-center",
-    img: "/b5.png",
+    //  imgClassName: "absolute right-0 bottom-0 md:w-[500px] w-60 rounded-3xl",
+    titleClassName: "justify-start",
+    //   img: "/b5.png",
     spareImg: "/grid.svg",
   },
   {
@@ -76,6 +89,15 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/c.svg", "/shadcn.svg", "/neon.svg"],
     link: "https://github.com/bibhuti147/Expense_Tracker",
     livesite: "https://expense-tracker-flax-psi.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "AnimeDiary - Mobile Application",
+    des: "A react native app where users can add, edit and manage their list of anime and manga.",
+    img: "/p4.png",
+    iconLists: ["/rn.svg", "/expo.svg", "/tail.svg", "/c.svg", "/neon.svg"],
+    link: "https://github.com/bibhuti147/AnimeDiary",
+    livesite: "/",
   },
 ];
 

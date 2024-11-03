@@ -7,6 +7,8 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
+import { skills } from "@/data";
+import ShimmerButton from "./ShimmerButton";
 
 export const BentoGrid = ({
   className,
@@ -111,6 +113,18 @@ export const BentoGridItem = ({
           </div>
 
           {id === 2 && <GlobeDemo />}
+
+          {id === 3 && (
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-2 mt-8 lg:mt-16">
+              {skills.map((skill, index) => (
+                <ShimmerButton
+                  title={skill.name}
+                  icon={skill.img}
+                  index={index}
+                />
+              ))}
+            </div>
+          )}
 
           {id === 4 && (
             <div className="mt-5 relative">
