@@ -13,7 +13,7 @@ const ShimmerButton = ({
 }) => {
   return (
     <button
-      className={`inline-flex text-xs lg:text-base h-12 animate-shimmer items-center justify-evenly gap-x-2 lg:gap-x-0 lg:justify-between rounded-md border border-slate-800 bg-[linear-gradient(110deg,rgba(4,7,29,1),45%,#EAECEC,50%,rgba(12,14,35,1))] bg-[length:200%_100%] px-6 font-medium text-[#C1C2D3] transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 ${otherClasses}`}
+      className={`inline-flex text-xs lg:text-base h-12 animate-shimmer items-center justify-evenly gap-x-2 lg:gap-x-0 lg:justify-between rounded-md border border-slate-800 bg-[linear-gradient(110deg,rgba(4,7,29,1),45%,rgba(234,236,236,0.15),50%,rgba(12,14,35,1))] bg-[length:200%_100%] px-6 font-medium text-[#C1C2D3] transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 ${otherClasses}`}
     >
       <div
         key={icon}
