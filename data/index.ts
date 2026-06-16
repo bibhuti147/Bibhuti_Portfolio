@@ -1,4 +1,6 @@
-export const navItems: { name: string; link: string; icon?: JSX.Element }[] = [
+import type { ReactNode } from "react";
+
+export const navItems: { name: string; link: string; icon?: ReactNode }[] = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
